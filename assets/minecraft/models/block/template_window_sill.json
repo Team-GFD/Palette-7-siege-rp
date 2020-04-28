@@ -1,0 +1,63 @@
+{
+	"textures": {
+		"sill_side": "custom/windowceilside",
+		"sill_base": "custom/windowceilbase",
+		"sill": "custom/windowceil"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [0, 0, 0],
+			"to": [16, 11, 16],
+			"faces": {
+				"north": {"uv": [0, 5, 16, 16], "texture": "side", "cullface": "north"},
+				"east": {"uv": [0, 5, 16, 16], "texture": "side", "cullface": "east"},
+				"south": {"uv": [0, 5, 16, 16], "texture": "side", "cullface": "south"},
+				"west": {"uv": [0, 5, 16, 16], "texture": "side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "side", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "side", "cullface": "down"}
+			},
+			"_loading": false
+		},
+		{
+			"name": "cap",
+			"from": [-1, 11, -1],
+			"to": [17, 16.009999999999998, 17],
+			"faces": {
+				"north": {"uv": [0, 5, 16, 10], "texture": "sill_side"},
+				"east": {"uv": [0, 5, 16, 10], "texture": "sill_side"},
+				"south": {"uv": [0, 5, 16, 10], "texture": "sill_side"},
+				"west": {"uv": [0, 5, 16, 10], "texture": "sill_side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "sill"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "sill_base"}
+			}
+		}
+	],
+	"groups": [0, 1],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.375, 0.375, 0.375],
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.375, 0.375, 0.375],
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0.4, 0.4, 0.4],
+			"rotation": [0, 45, 0],
+			"translation": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.4, 0.4, 0.4],
+			"rotation": [0, 225, 0],
+			"translation": [0, 0, 0]
+		},
+		"head": {"scale": [1, 1, 1]},
+		"ground": {"scale": [0.25, 0.25, 0.25], "rotation": [0, 0, 0], "translation": [0, 3, 0]},
+		"fixed": {"scale": [0.5, 0.5, 0.5], "rotation": [0, 0, 0], "translation": [0, 0, 0]},
+		"gui": {"scale": [0.625, 0.625, 0.625], "rotation": [30, 225, 0], "translation": [0, 0, 0]}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "block/template_window_sill",
+	"textures": {
+		"side": "block/lime_terracotta",
+		"sill_side": "custom/windowceilside",
+		"sill_base": "custom/windowceilbase",
+		"sill": "custom/windowceil",
+		"particle": "block/lime_terracotta"
+	}
+}

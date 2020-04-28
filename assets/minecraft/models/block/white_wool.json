@@ -1,0 +1,9 @@
+{
+	"parent": "block/template_column_top_bottom",
+	"textures": {
+		"side": "block/white_terracotta",
+		"bottom": "custom/ceiling",
+		"top": "block/white_wool",
+		"particle": "block/white_wool"
+	}
+}

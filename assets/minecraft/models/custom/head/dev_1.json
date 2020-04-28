@@ -1,0 +1,12 @@
+{
+	"parent": "custom/head/dev",
+	"textures": {
+		"0": "custom/heads/dev_1"
+	},
+	"display": {
+		"head": {
+			"scale": [2.0, 2.0, 2.0],
+			"translation": [0, 8.75, 0]
+		}
+	}
+}

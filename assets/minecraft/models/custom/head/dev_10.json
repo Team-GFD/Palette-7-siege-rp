@@ -1,0 +1,6 @@
+{
+	"parent": "custom/head/dev",
+	"textures": {
+		"0": "custom/heads/dev_10"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/template_one_way_glass", "y": 180 }
+        ]
+    }
+}

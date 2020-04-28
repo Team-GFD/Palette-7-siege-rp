@@ -1,0 +1,25 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/gold_hoe"
+	},
+	"overrides": [
+		{ "predicate": {"damaged": 0, "damage": 0}, "model": "custom/head2/blue_1"},
+		{ "predicate": {"damaged": 0, "damage": 0.030303030303030304}, "model": "custom/head2/blue_1"},
+		{ "predicate": {"damaged": 0, "damage": 0.06060606060606061}, "model": "custom/head2/blue_2"},
+		{ "predicate": {"damaged": 0, "damage": 0.09090909090909091}, "model": "custom/head2/blue_3"},
+		{ "predicate": {"damaged": 0, "damage": 0.12121212121212122}, "model": "custom/head2/blue_4"},
+		{ "predicate": {"damaged": 0, "damage": 0.15151515151515152}, "model": "custom/head2/blue_5"},
+		{ "predicate": {"damaged": 0, "damage": 0.18181818181818182}, "model": "custom/head2/blue_6"},
+		{ "predicate": {"damaged": 0, "damage": 0.21212121212121213}, "model": "custom/head2/blue_7"},
+		{ "predicate": {"damaged": 0, "damage": 0.24242424242424243}, "model": "custom/head2/blue_8"},
+		{ "predicate": {"damaged": 0, "damage": 0.2727272727272727}, "model": "custom/head2/red_1"},
+		{ "predicate": {"damaged": 0, "damage": 0.30303030303030304}, "model": "custom/head2/red_2"},
+		{ "predicate": {"damaged": 0, "damage": 0.33333333333333337}, "model": "custom/head2/red_3"},
+		{ "predicate": {"damaged": 0, "damage": 0.36363636363636365}, "model": "custom/head2/red_4"},
+		{ "predicate": {"damaged": 0, "damage": 0.3939393939393939}, "model": "custom/head2/red_5"},
+		{ "predicate": {"damaged": 0, "damage": 0.42424242424242425}, "model": "custom/head2/red_6"},
+		{ "predicate": {"damaged": 0, "damage": 0.4545454545454546}, "model": "custom/head2/red_7"},
+		{ "predicate": {"damaged": 0, "damage": 0.48484848484848486}, "model": "custom/head2/red_8"}
+	]
+}

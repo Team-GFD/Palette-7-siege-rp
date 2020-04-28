@@ -1,0 +1,24 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "custom/carrot_stick/ready_yes"
+        },
+		"display": {
+        "firstperperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "firstperperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+		},
+		"thirdperson_righthand": {
+			"scale": [0.001, 0.001, 0.001]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.001, 0.001, 0.001]
+		}
+	}
+}

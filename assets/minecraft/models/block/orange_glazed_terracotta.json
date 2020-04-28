@@ -1,0 +1,9 @@
+{
+	"parent": "block/template_barred_concrete",
+	"textures": {
+		"bars": "block/anvil",
+		"texture": "block/orange_concrete",
+		"particle": "block/orange_concrete",
+		"bedrock": "block/bedrock"
+	}
+}

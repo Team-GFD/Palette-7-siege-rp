@@ -1,0 +1,6 @@
+{
+	"parent": "custom/mapdisplay/0",
+	"textures": {
+		"0": "custom/mapdisplay/2"
+	}
+}

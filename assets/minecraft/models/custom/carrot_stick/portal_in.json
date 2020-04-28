@@ -1,0 +1,18 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "custom/carrot_stick/portal_in"
+        },
+		"display": {
+        "firstperperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "firstperperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+		}
+	}
+}
